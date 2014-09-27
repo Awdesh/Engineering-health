@@ -5,10 +5,5 @@ Repository will contain programs that leverages use of engineering concept and h
 
 Instructions-:
 
-Enter your Height in inches
-
-Enter your weight in lbs
-
-You'll see your BMI and if its in a good range or not.
-
+Please find Readme .txt file inside each project.
 
