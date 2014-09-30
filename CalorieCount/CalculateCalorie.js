@@ -8,8 +8,7 @@
 	myData.height = 70;
 	myData.sex = 'male';
 	myData.activityType = lightlyactive;
-	var myCalorie = calories(myData);
-	console.log("Amount of calorie you need to maintain your current weight is-: " + myCalorie);
+	var myCalorie = getCalorieNeeded(myData);
 }
  * Program intentionally created in 32 lines.
  * Author-: Awdesh Sharma
