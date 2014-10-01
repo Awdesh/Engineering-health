@@ -44,7 +44,7 @@ var FitBit = function() {
 				console.log("BRAVO!! you are leading active lifestyle. Keep up the good");
 				break;
 			}
-		},
+		}
 	}
 }
 
