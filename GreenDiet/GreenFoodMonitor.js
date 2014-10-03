@@ -8,9 +8,10 @@ if (consumedGreenInCups === 6) {
 }
 var age = prompt("Please enter you age");
 if (age > 19) {
-	var idealGreen = 14;
-	var need = idealGreen - consumedGreenInCups;
-	if(need > 0){
-	console.log("you need 20 cups of Green in a month, you need " + need + "more");
+	var idealGreenDietInWeek = 14;
+	// An adult requires 2 cups of green food in a day.
+	var needed = idealGreenDietInWeek - consumedGreenInCups * 2;
+	if(needed > 0){
+	console.log("you need 20 cups of Green in a month, you need " + needed + "more");
 	}
 }
