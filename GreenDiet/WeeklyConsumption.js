@@ -5,7 +5,7 @@ module.exports = {
 		// 0 for monday
 		// 1 for tuesday.
 		var n = d.getDay();
-		if (n > 7) {
+		if (n > 6) {
 			return;
 		}
 		if (AteGreenToday.counter > n) {
